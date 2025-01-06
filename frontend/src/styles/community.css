@@ -1,0 +1,79 @@
+.community-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .add-tip-form {
+    margin-bottom: 30px;
+  }
+  
+  .add-tip-form input,
+  .add-tip-form textarea,
+  .add-tip-form select {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .add-tip-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-tip-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tip-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tip-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tip-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tip-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .tip-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .tip-type {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+  
+  .tip-card.do .tip-type {
+    background-color: #28a745;
+  }
+  
+  .tip-card.dont .tip-type {
+    background-color: #dc3545;
+  }
+  
